@@ -4,7 +4,7 @@ SkyMart is a responsive, single-page e-commerce web application developed as a c
 
 ---
 
-## 🎯 Project Goals
+## Project Goals
 
 - **Modern React Architecture**: Implement reusable, component-driven UI with state managed via the React Context API.
 - **Client-Side Persistence**: Store user accounts, active cart items, and completed orders using browser `localStorage`.
@@ -13,7 +13,7 @@ SkyMart is a responsive, single-page e-commerce web application developed as a c
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 ### Product Catalog & Discovery
 - **Storefront Home Page**: Featured hero banner, category shortcuts, top-rated products, and new arrivals.
@@ -34,7 +34,7 @@ SkyMart is a responsive, single-page e-commerce web application developed as a c
 
 ---
 
-## 🛠️ Tech Stack & Dependencies
+## Tech Stack & Dependencies
 
 | Category | Technology | Purpose |
 |---|---|---|
@@ -47,7 +47,7 @@ SkyMart is a responsive, single-page e-commerce web application developed as a c
 
 ---
 
-## 🧠 Architecture & State Management
+## Architecture & State Management
 
 ### Context API (Global State)
 - `AuthContext`: Manages user authentication state (`currentUser`), login, registration, and session persistence.
@@ -63,7 +63,7 @@ Data persistence is handled through a utility wrapper (`src/utils/storage.js`) u
 
 ---
 
-## 🗺️ Application Routes
+## Application Routes
 
 | Route | Page | Access | Description |
 |---|---|---|---|
@@ -80,7 +80,7 @@ Data persistence is handled through a utility wrapper (`src/utils/storage.js`) u
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 src/
@@ -98,7 +98,7 @@ src/
 
 ---
 
-## 💻 Local Setup & Installation
+## Local Setup & Installation
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/) (v18 or higher recommended)
@@ -118,5 +118,3 @@ src/
 
 3. **Open in Browser**:
    Navigate to `http://localhost:5173` in your browser.
-
-
