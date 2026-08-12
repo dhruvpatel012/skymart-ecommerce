@@ -1,6 +1,6 @@
 # SkyMart — Modern E-Commerce Platform
 
-SkyMart is a modern, responsive e-commerce platform designed to deliver a premium storefront experience. The application features complete product discovery, real-time search, category filtering, catalog sorting, URL-based pagination, a persistent cart drawer, a streamlined checkout pipeline, order confirmation, user account management, and client-side authentication. Built with a client-side architecture and browser local persistence, SkyMart combines fast interactive performance with a dark-first visual direction.
+SkyMart is a modern, responsive e-commerce platform designed to deliver a premium storefront experience. The application features complete product discovery, real-time search, category filtering, catalog sorting, URL-based pagination, a persistent cart drawer, a streamlined checkout pipeline, order confirmation, user account management, and client-side authentication. Built with a client-side architecture and browser local persistence, SkyMart combines fast interactive performance with a dark-first visual direction
 
 ---
 
