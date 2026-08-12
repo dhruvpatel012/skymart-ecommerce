@@ -7,10 +7,10 @@ export const Footer = () => {
   return (
     <footer className="bg-[#020617] border-t border-slate-800/80 text-slate-400 mt-auto">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16 space-y-12">
-        {/* Top Grid */}
+        {/* Top Grid - Single column on mobile (grid-cols-1), 4 columns on desktop (md:grid-cols-4) */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand Column */}
-          <div className="space-y-4 md:col-span-1">
+          <div className="space-y-4">
             <Link to="/" className="inline-flex items-center gap-2 font-display text-xl font-bold text-white">
               <span className="bg-lime-400 text-slate-950 px-2 py-0.5 rounded text-sm font-extrabold">SKY</span>
               <span>MART</span>
@@ -20,50 +20,47 @@ export const Footer = () => {
             </p>
           </div>
 
-          {/* Navigation & Categories (2-column grid on mobile, 2 cols on md) */}
-          <div className="grid grid-cols-2 gap-6 md:col-span-2">
-            {/* Navigation Column */}
-            <div className="space-y-3">
-              <h4 className="text-xs uppercase tracking-wider font-semibold text-slate-200">Navigation</h4>
-              <ul className="space-y-2 text-xs">
-                <li>
-                  <Link to="/" className="hover:text-lime-400 transition-colors">
-                    Home Page
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/shop" className="hover:text-lime-400 transition-colors">
-                    Shop All Products
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/about" className="hover:text-lime-400 transition-colors">
-                    About SkyMart
-                  </Link>
-                </li>
-              </ul>
-            </div>
+          {/* Navigation Column */}
+          <div className="space-y-3">
+            <h4 className="text-xs uppercase tracking-wider font-semibold text-slate-200">Navigation</h4>
+            <ul className="space-y-2 text-xs">
+              <li>
+                <Link to="/" className="hover:text-lime-400 transition-colors">
+                  Home Page
+                </Link>
+              </li>
+              <li>
+                <Link to="/shop" className="hover:text-lime-400 transition-colors">
+                  Shop All Products
+                </Link>
+              </li>
+              <li>
+                <Link to="/about" className="hover:text-lime-400 transition-colors">
+                  About SkyMart
+                </Link>
+              </li>
+            </ul>
+          </div>
 
-            {/* Categories Column */}
-            <div className="space-y-3">
-              <h4 className="text-xs uppercase tracking-wider font-semibold text-slate-200">Categories</h4>
-              <ul className="space-y-2 text-xs">
-                {categories.map((cat) => (
-                  <li key={cat.id}>
-                    <Link
-                      to={`/shop?category=${cat.value}`}
-                      className="hover:text-lime-400 transition-colors capitalize"
-                    >
-                      {cat.label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
+          {/* Categories Column */}
+          <div className="space-y-3">
+            <h4 className="text-xs uppercase tracking-wider font-semibold text-slate-200">Categories</h4>
+            <ul className="space-y-2 text-xs">
+              {categories.map((cat) => (
+                <li key={cat.id}>
+                  <Link
+                    to={`/shop?category=${cat.value}`}
+                    className="hover:text-lime-400 transition-colors capitalize"
+                  >
+                    {cat.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
 
           {/* Guarantee / Features Column ("Why SkyMart?") */}
-          <div className="space-y-3 md:col-span-1">
+          <div className="space-y-3">
             <h4 className="text-xs uppercase tracking-wider font-semibold text-slate-200">Why SkyMart?</h4>
             <div className="space-y-2.5 text-xs text-slate-400">
               <div className="flex items-center gap-2">
