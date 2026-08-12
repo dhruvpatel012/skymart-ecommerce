@@ -60,7 +60,7 @@ export const Home = () => {
               <span className="text-slate-600 font-normal">|</span>
               <span className="flex items-center gap-1.5">
                 <Sparkles className="w-3.5 h-3.5 text-lime-400 shrink-0" />
-                Next-Gen E-Commerce Experience
+                Elevate Your Everyday
               </span>
             </div>
 
@@ -73,7 +73,7 @@ export const Home = () => {
             </h1>
 
             <p className="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-              Curated high-performance electronics, urban apparel, ergonomic furniture, and active lifestyle essentials designed with high-contrast precision.
+              Your single destination for high-performance tech, urban fashion, and ergonomic living space essentials built for the modern consumer.
             </p>
 
             <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-2">
