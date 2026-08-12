@@ -31,3 +31,14 @@ export const emailNoWhitespace = (value) => {
   }
   return true;
 };
+
+// Validates that a mobile number contains exactly 10 digits
+export const phoneTenDigits = (value) => {
+  if (!value || typeof value !== 'string') return 'Mobile number is required';
+  const cleanVal = value.trim();
+  if (!/^\d{10}$/.test(cleanVal)) {
+    return 'Mobile number must be exactly 10 digits';
+  }
+  return true;
+};
+

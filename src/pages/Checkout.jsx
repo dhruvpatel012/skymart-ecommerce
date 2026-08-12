@@ -21,7 +21,7 @@ import { Select } from '../components/common/Select';
 import { FormField } from '../components/common/FormField';
 import { Button } from '../components/common/Button';
 import { EmptyState } from '../components/common/EmptyState';
-import { noLeadingWhitespace, emailNoWhitespace } from '../utils/validators';
+import { noLeadingWhitespace, emailNoWhitespace, phoneTenDigits } from '../utils/validators';
 
 export const Checkout = () => {
   const navigate = useNavigate();
@@ -183,17 +183,30 @@ export const Checkout = () => {
                   />
                 </FormField>
 
-                <FormField label="Phone" htmlFor="phone" error={errors.phone?.message} className="sm:col-span-2">
+                <FormField label="Mobile Number" htmlFor="phone" error={errors.phone?.message} className="sm:col-span-2">
                   <Input
                     id="phone"
                     type="tel"
-                    placeholder="+1 (555) 000-0000"
+                    placeholder="Enter 10-digit mobile number"
+                    maxLength={10}
                     error={!!errors.phone}
                     {...register('phone', {
-                      required: 'Phone number is required',
+                      required: 'Mobile number is required',
+                      minLength: {
+                        value: 10,
+                        message: 'Mobile number must be at least 10 digits',
+                      },
+                      maxLength: {
+                        value: 10,
+                        message: 'Mobile number cannot exceed 10 digits',
+                      },
+                      pattern: {
+                        value: /^[0-9]{10}$/,
+                        message: 'Mobile number must contain exactly 10 digits',
+                      },
                       validate: {
                         noLeading: noLeadingWhitespace,
-                        noBlank: (val) => val.trim() !== '' || 'Phone number cannot be blank spaces',
+                        exactTenDigits: phoneTenDigits,
                       },
                     })}
                   />
