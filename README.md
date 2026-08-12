@@ -1,4 +1,4 @@
-# SkyMart — Modern E-Commerce Web Application
+# SkyMart - Modern E-Commerce Web Application
 
 SkyMart is a responsive, single-page e-commerce web application developed as a college portfolio project. It demonstrates modern frontend development practices using **React 19**, **Vite**, **Tailwind CSS v4**, and **React Router v7**. The application offers a complete storefront experience including product discovery, real-time search and filtering, catalog pagination, cart drawer management, client-side user authentication, and a demo checkout flow.
 
