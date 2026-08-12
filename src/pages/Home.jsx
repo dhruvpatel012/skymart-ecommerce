@@ -52,12 +52,24 @@ export const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           {/* Left Hero Content */}
           <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-800/90 border border-slate-700 text-lime-400 text-xs font-semibold uppercase tracking-wider">
-              <Sparkles className="w-3.5 h-3.5" /> Next-Gen E-Commerce Experience
+            <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-lg bg-slate-900/90 border border-lime-400/30 text-lime-400 text-xs font-bold uppercase tracking-widest backdrop-blur-md shadow-[0_0_15px_rgba(163,230,53,0.12)]">
+              <span className="relative flex h-2 w-2">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-lime-400 opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-lime-400"></span>
+              </span>
+              <span className="text-slate-600 font-normal">|</span>
+              <span className="flex items-center gap-1.5">
+                <Sparkles className="w-3.5 h-3.5 text-lime-400 shrink-0" />
+                Next-Gen E-Commerce Experience
+              </span>
             </div>
 
-            <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-tight">
-              Discover Premium Gear for <span className="text-lime-400 underline decoration-lime-400/30">Modern Living</span>.
+            <h1 className="font-display text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-tight">
+              Discover Premium Gear for{' '}
+              <span className="whitespace-nowrap relative inline-block text-lime-400 pb-1">
+                Modern Living
+                <span className="absolute bottom-0 left-0 w-full h-[3px] bg-gradient-to-r from-lime-400 via-lime-300 to-lime-500/40 rounded-full shadow-[0_0_10px_rgba(163,230,53,0.5)]"></span>
+              </span>.
             </h1>
 
             <p className="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed">

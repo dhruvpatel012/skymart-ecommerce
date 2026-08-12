@@ -20,47 +20,50 @@ export const Footer = () => {
             </p>
           </div>
 
-          {/* Navigation Column */}
-          <div className="space-y-3">
-            <h4 className="text-xs uppercase tracking-wider font-semibold text-slate-200">Navigation</h4>
-            <ul className="space-y-2 text-xs">
-              <li>
-                <Link to="/" className="hover:text-lime-400 transition-colors">
-                  Home Page
-                </Link>
-              </li>
-              <li>
-                <Link to="/shop" className="hover:text-lime-400 transition-colors">
-                  Shop All Products
-                </Link>
-              </li>
-              <li>
-                <Link to="/about" className="hover:text-lime-400 transition-colors">
-                  About SkyMart
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Categories Column */}
-          <div className="space-y-3">
-            <h4 className="text-xs uppercase tracking-wider font-semibold text-slate-200">Categories</h4>
-            <ul className="space-y-2 text-xs">
-              {categories.map((cat) => (
-                <li key={cat.id}>
-                  <Link
-                    to={`/shop?category=${cat.value}`}
-                    className="hover:text-lime-400 transition-colors capitalize"
-                  >
-                    {cat.label}
+          {/* Navigation & Categories (2-column grid on mobile, 2 cols on md) */}
+          <div className="grid grid-cols-2 gap-6 md:col-span-2">
+            {/* Navigation Column */}
+            <div className="space-y-3">
+              <h4 className="text-xs uppercase tracking-wider font-semibold text-slate-200">Navigation</h4>
+              <ul className="space-y-2 text-xs">
+                <li>
+                  <Link to="/" className="hover:text-lime-400 transition-colors">
+                    Home Page
                   </Link>
                 </li>
-              ))}
-            </ul>
+                <li>
+                  <Link to="/shop" className="hover:text-lime-400 transition-colors">
+                    Shop All Products
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/about" className="hover:text-lime-400 transition-colors">
+                    About SkyMart
+                  </Link>
+                </li>
+              </ul>
+            </div>
+
+            {/* Categories Column */}
+            <div className="space-y-3">
+              <h4 className="text-xs uppercase tracking-wider font-semibold text-slate-200">Categories</h4>
+              <ul className="space-y-2 text-xs">
+                {categories.map((cat) => (
+                  <li key={cat.id}>
+                    <Link
+                      to={`/shop?category=${cat.value}`}
+                      className="hover:text-lime-400 transition-colors capitalize"
+                    >
+                      {cat.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
 
-          {/* Guarantee / Features Column */}
-          <div className="space-y-3">
+          {/* Guarantee / Features Column ("Why SkyMart?") */}
+          <div className="space-y-3 md:col-span-1">
             <h4 className="text-xs uppercase tracking-wider font-semibold text-slate-200">Why SkyMart?</h4>
             <div className="space-y-2.5 text-xs text-slate-400">
               <div className="flex items-center gap-2">
@@ -81,7 +84,11 @@ export const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-slate-800/80 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-500">
-          <p>© {new Date().getFullYear()} SkyMart. Learning-focused e-commerce frontend.</p>
+          <div className="flex flex-col sm:flex-row items-center gap-2 text-center sm:text-left">
+            <p>© {new Date().getFullYear()} SkyMart. Learning-focused e-commerce frontend.</p>
+            <span className="hidden sm:inline text-slate-700">•</span>
+            <p className="text-slate-400 font-medium">Made & Designed by Dhruv Patel</p>
+          </div>
           <div className="flex items-center gap-6">
             <Link to="/shop" className="hover:text-slate-300 transition-colors">
               Terms & Conditions
