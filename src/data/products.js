@@ -31,7 +31,7 @@ export const products = [
     price: 249.00,
     rating: 4.9,
     reviews: 210,
-    image: "https://m.media-amazon.com/images/I/61PouBgPcGL.jpg://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&auto=format&fit=crop&q=80",
+    image: "https://media.tatacroma.com/Croma%20Assets/Wearable/Wearable%20Devices/Images/312704_sdjmbm.png",
     description: "High-definition AMOLED display, heart rate and SpO2 tracking, titanium bezel, and 7-day battery endurance.",
     featured: true,
     createdAt: "2026-02-01"
@@ -69,7 +69,7 @@ export const products = [
     price: 135.00,
     rating: 4.6,
     reviews: 74,
-    image: "https://i.pinimg.com/736x/a8/37/14/a8371488d647225bedc707a41f0c363f.jpg://images.unsplash.com/photo-1544441893-675973e31985?w=600&auto=format&fit=crop&q=80",
+    image: "https://cdn.shopify.com/s/files/1/0713/7778/0893/files/901885402_g1_ca2c8b8e-c32b-493e-8414-c279e26ffcd7.jpg?v=1761737287",
     description: "Water-repellent ripstop fabric with thermal fleece lining, taped seams, and concealed utility pockets.",
     featured: false,
     createdAt: "2026-01-22"
