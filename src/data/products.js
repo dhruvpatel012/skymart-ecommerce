@@ -69,7 +69,7 @@ export const products = [
     price: 135.00,
     rating: 4.6,
     reviews: 74,
-    image: "https://cdn.shopify.com/s/files/1/0713/7778/0893/files/901885402_g1_ca2c8b8e-c32b-493e-8414-c279e26ffcd7.jpg?v=1761737287",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0AFsCku5yIZbe4YYRfi-BZAMqVxyz9CJQl4yw5tc98qkw0RirecQ6fNI&s=10",
     description: "Water-repellent ripstop fabric with thermal fleece lining, taped seams, and concealed utility pockets.",
     featured: false,
     createdAt: "2026-01-22"
@@ -143,7 +143,7 @@ export const products = [
     price: 74.50,
     rating: 4.8,
     reviews: 92,
-    image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&auto=format&fit=crop&q=80",
+    image: "https://www.ergoyou.in/cdn/shop/files/image_32_1200x1200.png?v=1770445869",
     description: "Gas spring aluminum arm supporting monitors up to 32 inches with 360-degree rotation and tilt capability.",
     featured: false,
     createdAt: "2026-01-25"
@@ -157,7 +157,7 @@ export const products = [
     price: 69.99,
     rating: 4.7,
     reviews: 160,
-    image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600&auto=format&fit=crop&q=80",
+    image: "https://5.imimg.com/data5/SELLER/Default/2026/2/584710997/JO/KT/NX/68103635/smart-rgb-led-light-bars-2pcs-ambient-lighting-for-tv-27cm-usb-powered-mood-lights-b0gflzdqht-500x500.png",
     description: "Syncs with music and screen colors. Features 16 million RGB colors, voice control, and app scheduling.",
     featured: true,
     createdAt: "2026-01-19"
@@ -169,7 +169,7 @@ export const products = [
     price: 42.00,
     rating: 4.6,
     reviews: 84,
-    image: "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=600&auto=format&fit=crop&q=80",
+    image: "https://www.thegoodroad.in/cdn/shop/files/Wooden_Cool_Mist_Humidifiers_cum_oil_diffuse_organic_bazar_lifestyle_1.jpg?v=1758544543",
     description: "Ceramic stoneware cover, whisper-quiet ultrasonic misting, auto shut-off, and warm LED nightlight glow.",
     featured: false,
     createdAt: "2026-01-14"
@@ -181,7 +181,7 @@ export const products = [
     price: 48.50,
     rating: 4.8,
     reviews: 67,
-    image: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=600&auto=format&fit=crop&q=80",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb083942O7b0Qj6x-1-x-2-5-F1pP2W-Lp8-A&s",
     description: "Handcrafted pour-over carafe with double-wall stainless filter and two matching stoneware cups.",
     featured: false,
     createdAt: "2026-01-30"
@@ -193,7 +193,7 @@ export const products = [
     price: 179.00,
     rating: 4.8,
     reviews: 103,
-    image: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600&auto=format&fit=crop&q=80",
+    image: "https://m.media-amazon.com/images/I/51NZx-GppcL._AC_UF894,1000_QL80_.jpg",
     description: "3-stage true HEPA filtration removes 99.97% of airborne particles. Real-time air quality indicator light.",
     featured: true,
     createdAt: "2026-02-04"
@@ -219,7 +219,7 @@ export const products = [
     price: 34.00,
     rating: 4.9,
     reviews: 240,
-    image: "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=600&auto=format&fit=crop&q=80",
+    image: "https://femora.in/cdn/shop/products/post1cola-01_40477242-ec79-4e4f-895d-3550e6a51956.jpg?v=1675578882",
     description: "Double-wall vacuum insulation keeps drinks cold for 24 hours or hot for 12 hours. Leak-proof straw lid.",
     featured: true,
     createdAt: "2026-01-24"
@@ -231,7 +231,7 @@ export const products = [
     price: 29.99,
     rating: 4.5,
     reviews: 79,
-    image: "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=600&auto=format&fit=crop&q=80",
+    image: "https://m.media-amazon.com/images/I/61IgUDZmDPL._AC_UF894,1000_QL80_.jpg",
     description: "5 color-coded natural latex exercise bands ranging from 10 lbs to 50 lbs with door anchor & carry bag.",
     featured: false,
     createdAt: "2026-01-11"
@@ -257,7 +257,7 @@ export const products = [
     price: 185.00,
     rating: 4.9,
     reviews: 95,
-    image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&auto=format&fit=crop&q=80",
+    image: "https://mahetri.in/cdn/shop/collections/Leather-Duffel-bag_1000x1000.jpg?v=1649315077",
     description: "Handmade full-grain cowhide leather with padded 15-inch laptop sleeve, brass zippers, and shoe compartment.",
     featured: true,
     createdAt: "2026-01-21"
@@ -281,7 +281,7 @@ export const products = [
     price: 38.00,
     rating: 4.8,
     reviews: 140,
-    image: "https://images.unsplash.com/photo-1627123424574-724758594e93?w=600&auto=format&fit=crop&q=80",
+    image: "https://kinnoti.com/cdn/shop/files/kinnoti-wallet-slim-leather-wallet-minimalist-card-money-holder-1217347600.png?v=1768916632&width=3000",
     description: "RFID-blocking slim front-pocket wallet holding up to 8 cards and folded cash notes.",
     featured: false,
     createdAt: "2026-01-27"
@@ -293,7 +293,7 @@ export const products = [
     price: 45.00,
     rating: 4.7,
     reviews: 82,
-    image: "https://images.unsplash.com/photo-1544816155-12df9643f363?w=600&auto=format&fit=crop&q=80",
+    image: "https://ae-pic-a1.aliexpress-media.com/kf/S0aa435b434e9493a97061977ae147f2eG.jpg",
     description: "Water-resistant waxed canvas exterior with soft plush interior lining for 13 to 16-inch laptops.",
     featured: false,
     createdAt: "2026-01-29"
