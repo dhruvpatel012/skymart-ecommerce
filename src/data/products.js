@@ -7,8 +7,8 @@ export const products = [
     price: 199.99,
     rating: 4.8,
     reviews: 142,
-    image: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/airpods-max-select-202409-blue_FV1?wid=976&hei=916&fmt=jpeg&qlt=90&.v=azQxRkVJKzd6V3J0aGNqWFhLMzBmaVZsckZUTTZZd1pFb3lRTGNlYkF0Yy9BSXRGSWdwVEs0NXdLd3JPRVQ3TGROL2hTdHRlcnVBMFhCNlFSVHgrS01jL2RQeWJYZ1FmWXUzRFBMSzJrTlJTZy9JeUNjV2pzbzd6anYzTldHVWw://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&auto=format&fit=crop&q=80",
-    description: "The ultimate over‑ear personal listening experience in five vibrant colours with up to 1.5x more Active Noise Cancellation than the previous generation. Footnote ⁴ AirPods Max 2 deliver stunningly detailed high‑fidelity audio.",
+    image: "https://www.leafstudios.in/cdn/shop/files/1_a43c5e0b-3a47-497d-acec-b4764259b10e_800x.png?v=1750486829",
+    description: "The ultimate over‑ear personal listening experience in five vibrant colours with up to 1.5x more Active Noise Cancellation.",
     featured: true,
     createdAt: "2026-01-15"
   },
