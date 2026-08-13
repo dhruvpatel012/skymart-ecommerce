@@ -181,7 +181,7 @@ export const products = [
     price: 48.50,
     rating: 4.8,
     reviews: 67,
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb083942O7b0Qj6x-1-x-2-5-F1pP2W-Lp8-A&s",
+    image: "https://image.made-in-china.com/2f0j00sKZbSBurPFoj/Ceramic-Golden-Tea-Set-with-Teapot-Milk-Pot-Sugar-Jars-Porcelain-Tea-Cup-Saucer-Set-Gold-Coffee-Cups.webp",
     description: "Handcrafted pour-over carafe with double-wall stainless filter and two matching stoneware cups.",
     featured: false,
     createdAt: "2026-01-30"
