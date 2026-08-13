@@ -107,7 +107,7 @@ export const products = [
     price: 349.99,
     rating: 4.9,
     reviews: 180,
-    image: "https://images.unsplash.com/photo-1580481072645-022f9a6d8310?w=600&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1776548759593-6fa64c60129f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fEVyZ29ub21pYyUyME1lc2glMjBFeGVjdXRpdmUlMjBDaGFpcnxlbnwwfHwwfHx8MA%3D%3D://images.unsplash.com/photo-1580481072645-022f9a6d8310?w=600&auto=format&fit=crop&q=80",
     description: "Breathable lumbar support, 4D adjustable armrests, sync-tilt mechanism, and heavy-duty aluminum base.",
     featured: true,
     createdAt: "2026-01-12"
@@ -131,7 +131,7 @@ export const products = [
     price: 89.99,
     rating: 4.4,
     reviews: 38,
-    image: "https://images.unsplash.com/photo-1532372688391-768160350438?w=600&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1611486212557-88be5ff6f941?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fE5vcmRpYyUyME1pbmltYWxpc3QlMjBTaWRlJTIwVGFibGV8ZW58MHx8MHx8fDA%3D://images.unsplash.com/photo-1532372688391-768160350438?w=600&auto=format&fit=crop&q=80",
     description: "Scandi-inspired round accent table with matte steel tripod legs and sustainable natural oak top.",
     featured: false,
     createdAt: "2026-01-08"
@@ -243,7 +243,7 @@ export const products = [
     price: 220.00,
     rating: 4.8,
     reviews: 112,
-    image: "https://images.unsplash.com/photo-1638805981949-332d87516db3?w=600&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1703668984128-b506579acdd2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QWRqdXN0YWJsZSUyMER1bWJiZWxsJTIwU2V0JTIwKFBhaXIpfGVufDB8fDB8fHww://images.unsplash.com/photo-1638805981949-332d87516db3?w=600&auto=format&fit=crop&q=80",
     description: "Quick-adjust weight selector dial from 5 lbs to 52.5 lbs each. Compact space-saving home gym design.",
     featured: true,
     createdAt: "2026-02-02"
