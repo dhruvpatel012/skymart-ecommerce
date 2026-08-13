@@ -19,7 +19,7 @@ export const products = [
     price: 129.50,
     rating: 4.7,
     reviews: 89,
-    image: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80",
+    image: "https://m.media-amazon.com/images/I/61P7MvyRbUL._AC_UF1000,1000_QL80_.jpg://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80",
     description: "Low-profile tactile switches, RGB ambient backlighting, and seamless multi-device Bluetooth pairing.",
     featured: true,
     createdAt: "2026-01-20"
@@ -31,20 +31,20 @@ export const products = [
     price: 249.00,
     rating: 4.9,
     reviews: 210,
-    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&auto=format&fit=crop&q=80",
+    image: "https://m.media-amazon.com/images/I/61PouBgPcGL.jpg://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&auto=format&fit=crop&q=80",
     description: "High-definition AMOLED display, heart rate and SpO2 tracking, titanium bezel, and 7-day battery endurance.",
     featured: true,
     createdAt: "2026-02-01"
   },
   {
     id: 4,
-    title: "Studio Studio Wireless Earbuds",
+    title: "Boat Wireless Earbuds",
     category: "electronics",
     price: 119.99,
     rating: 4.6,
     reviews: 65,
-    image: "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&auto=format&fit=crop&q=80",
-    description: "Crystal-clear dual mic system, sweat resistance, and IPX7 water rating for workouts and commuting.",
+    image: "https://www.boat-lifestyle.com/cdn/shop/files/Artboard3_238a3c47-bdff-4909-951a-4c80593dcec0_1024x.jpg?v=1706515408://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&auto=format&fit=crop&q=80",
+    description: "Wireless Earbuds with 45 Hours Playback, BEAST™ Mode, ASAP™ Charge, Dual Mics with ENx™ Technology",
     featured: false,
     createdAt: "2026-01-05"
   },
@@ -93,7 +93,7 @@ export const products = [
     price: 110.00,
     rating: 4.7,
     reviews: 52,
-    image: "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=600&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1611312449408-fcece27cdbb7?q=80&w=669&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=600&auto=format&fit=crop&q=80",
     description: "Classic dark wash denim with subtle stretch comfort, matte black hardware, and double chest pockets.",
     featured: true,
     createdAt: "2026-02-03"
