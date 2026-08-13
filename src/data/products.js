@@ -7,8 +7,8 @@ export const products = [
     price: 199.99,
     rating: 4.8,
     reviews: 142,
-    image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&auto=format&fit=crop&q=80",
-    description: "Immersive spatial audio with active noise cancellation, 40-hour battery life, and ultra-plush memory foam earcups.",
+    image: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/airpods-max-select-202409-blue_FV1?wid=976&hei=916&fmt=jpeg&qlt=90&.v=azQxRkVJKzd6V3J0aGNqWFhLMzBmaVZsckZUTTZZd1pFb3lRTGNlYkF0Yy9BSXRGSWdwVEs0NXdLd3JPRVQ3TGROL2hTdHRlcnVBMFhCNlFSVHgrS01jL2RQeWJYZ1FmWXUzRFBMSzJrTlJTZy9JeUNjV2pzbzd6anYzTldHVWw://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&auto=format&fit=crop&q=80",
+    description: "The ultimate over‑ear personal listening experience in five vibrant colours with up to 1.5x more Active Noise Cancellation than the previous generation. Footnote ⁴ AirPods Max 2 deliver stunningly detailed high‑fidelity audio.",
     featured: true,
     createdAt: "2026-01-15"
   },
@@ -57,8 +57,8 @@ export const products = [
     price: 78.00,
     rating: 4.8,
     reviews: 115,
-    image: "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=600&auto=format&fit=crop&q=80",
-    description: "Crafted from 100% organic french terry cotton. Relaxed streetwear fit with double-layered hood.",
+    image: "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/70/5536723/1.jpg?8946://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=600&auto=format&fit=crop&q=80",
+    description: "Men Pullover Hoodies Long Sleeve Pocket Sweatshirt Winter Casual Pullover Hoodie Jackets.",
     featured: true,
     createdAt: "2026-01-18"
   },
@@ -69,7 +69,7 @@ export const products = [
     price: 135.00,
     rating: 4.6,
     reviews: 74,
-    image: "https://images.unsplash.com/photo-1544441893-675973e31985?w=600&auto=format&fit=crop&q=80",
+    image: "https://i.pinimg.com/736x/a8/37/14/a8371488d647225bedc707a41f0c363f.jpg://images.unsplash.com/photo-1544441893-675973e31985?w=600&auto=format&fit=crop&q=80",
     description: "Water-repellent ripstop fabric with thermal fleece lining, taped seams, and concealed utility pockets.",
     featured: false,
     createdAt: "2026-01-22"
@@ -81,8 +81,8 @@ export const products = [
     price: 55.00,
     rating: 4.5,
     reviews: 98,
-    image: "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&auto=format&fit=crop&q=80",
-    description: "Versatile everyday crewneck with ribbed cuffs and hem. Pre-shrunk premium cotton fleece blend.",
+    image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/632091/16/mod01/fnd/IND/fmt/png/PREMIUM-ESSENTIALS-Relaxed-Crew-Sweatshirt://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&auto=format&fit=crop&q=80",
+    description: "PREMIUM ESSENTIALS Relaxed Crew Sweatshirt with ribbed cuffs and hem. Pre-shrunk premium cotton fleece blend.",
     featured: false,
     createdAt: "2026-01-10"
   },
