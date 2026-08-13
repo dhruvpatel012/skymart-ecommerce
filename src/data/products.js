@@ -19,7 +19,7 @@ export const products = [
     price: 129.50,
     rating: 4.7,
     reviews: 89,
-    image: "https://m.media-amazon.com/images/I/71Ur6Xn4PyL._AC_UF1000,1000_QL80_.jpg",
+    image: "https://m.media-amazon.com/images/I/61FHyO7EedL.jpg",
     description: "Low-profile tactile switches, RGB ambient backlighting, and seamless multi-device Bluetooth pairing.",
     featured: true,
     createdAt: "2026-01-20"
