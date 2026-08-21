@@ -6,11 +6,13 @@ import { ToastProvider } from './context/ToastContext';
 import { Navbar } from './components/layout/Navbar';
 import { Footer } from './components/layout/Footer';
 import { CartDrawer } from './components/cart/CartDrawer';
+import { ScrollToTop } from './components/common/ScrollToTop';
 import { AppRoutes } from './routes/AppRoutes';
 
 export function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <ToastProvider>
         <AuthProvider>
           <CartProvider>
