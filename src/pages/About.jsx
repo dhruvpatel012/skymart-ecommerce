@@ -72,7 +72,7 @@ export const About = () => {
             </div>
           </div>
 
-          <div className="lg:col-span-5 bg-slate-950/80 p-6 sm:p-8 rounded-xl border border-slate-800 space-y-4 text-center sm:text-left">
+          <div className="lg:col-span-5 bg-slate-950/80 p-6 sm:p-8 rounded-xl border border-slate-800 space-y-4 text-left">
             <div className="w-12 h-12 rounded-xl bg-lime-400/10 border border-lime-400/20 flex items-center justify-center text-lime-400">
               <Globe className="w-6 h-6" />
             </div>
