@@ -7,7 +7,7 @@ export const products = [
     price: 199.99,
     rating: 4.8,
     reviews: 142,
-    image: "https://www.leafstudios.in/cdn/shop/files/1_a43c5e0b-3a47-497d-acec-b4764259b10e_800x.png?v=1750486829",
+    image: "https://m.media-amazon.com/images/I/51WYixdrZYL._AC_UF1000,1000_QL80_.jpg",
     description: "The ultimate over‑ear personal listening experience in five vibrant colours with up to 1.5x more Active Noise Cancellation.",
     featured: true,
     createdAt: "2026-01-15"
