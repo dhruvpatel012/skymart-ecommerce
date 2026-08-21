@@ -31,14 +31,22 @@ export const About = () => {
           SkyMart is a modern e-commerce platform designed with high-contrast dark aesthetics, curated product collections, and an unwavering commitment to fast, intuitive customer experiences.
         </p>
 
-        <div className="flex flex-wrap items-center justify-center gap-4 pt-2">
-          <Link to="/shop">
-            <Button variant="primary" size="lg" className="flex items-center gap-2">
-              <ShoppingBag className="w-5 h-5" /> Explore Products <ArrowRight className="w-4 h-4 ml-1" />
+        <div className="flex items-center justify-center gap-3 sm:gap-4 pt-2 max-w-md mx-auto">
+          <Link to="/shop" className="flex-1 sm:flex-initial">
+            <Button
+              variant="primary"
+              className="w-full sm:w-auto px-3.5 sm:px-6 py-3 text-xs sm:text-sm md:text-base flex items-center justify-center gap-1.5 sm:gap-2 shadow-lg shadow-lime-400/10 whitespace-nowrap"
+            >
+              <ShoppingBag className="w-4 h-4 sm:w-5 sm:h-5 shrink-0" />
+              <span>Explore Products</span>
+              <ArrowRight className="w-3.5 h-3.5 sm:w-4 sm:h-4 shrink-0" />
             </Button>
           </Link>
-          <Link to="/">
-            <Button variant="secondary" size="lg">
+          <Link to="/" className="flex-1 sm:flex-initial">
+            <Button
+              variant="secondary"
+              className="w-full sm:w-auto px-3.5 sm:px-6 py-3 text-xs sm:text-sm md:text-base flex items-center justify-center whitespace-nowrap"
+            >
               Back to Home
             </Button>
           </Link>
